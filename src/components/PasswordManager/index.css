@@ -1,0 +1,22 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 30px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+  }
+}
+
+.password-manager-logo {
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
